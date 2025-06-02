@@ -71,7 +71,7 @@ export default function Layout({ children }: LayoutProps) {
     const NavigationContent = () => (
         <div className="flex flex-col h-full bg-background"> {/* Ensure background for sidebar */}
             <div className="p-4 border-b">
-                <h1 className="text-xl font-bold">Productivity Hub</h1>
+                <h1 className="text-xl font-bold">Mk To-Do Hub</h1>
             </div>
             <nav className="flex-1 p-4 space-y-1"> {/* Reduced space-y for tighter links */}
                 {navigationItems.map((item) => {
